@@ -7,7 +7,6 @@ YELLOW='\033[0;33m'
 BLUE='\033[0;34m'
 NC='\033[0m'
 
-# 【修改点】去掉 'function' 关键字，使用标准写法
 show_menu() {
     echo -e "${BLUE}==============================${NC}"
     echo -e "      Git 助手脚本      "
@@ -16,6 +15,7 @@ show_menu() {
     echo "2. 拉取更新 (git pull)"
     echo "3. 提交并推送 (add + commit + push)"
     echo "4. 仅推送 (git push)"
+    echo "5. 强制推送 (git push --force)"
     echo "0. 退出"
     echo -e "${BLUE}==============================${NC}"
 }
@@ -25,7 +25,7 @@ BRANCH=$(git symbolic-ref --short HEAD)
 
 while true; do
     show_menu
-    read -p "请输入选项 [0-4]: " choice
+    read -p "请输入选项 [0-5]: " choice
     
     case $choice in
         1)
@@ -49,13 +49,26 @@ while true; do
             echo -e "${GREEN}执行: git commit${NC}"
             git commit -m "$msg"
             
+            # 拉取远程更改并推送
+            echo -e "${YELLOW}正在从 origin/${BRANCH} 拉取代码...${NC}"
+            git pull origin $BRANCH
+            
             echo -e "${GREEN}执行: git push origin $BRANCH${NC}"
             git push origin $BRANCH
             ;;
         4)
-             echo -e "${GREEN}执行: git push origin $BRANCH${NC}"
-             git push origin $BRANCH
-             ;;
+            echo -e "${YELLOW}正在从 origin/${BRANCH} 拉取代码...${NC}"
+            git pull origin $BRANCH
+            echo -e "${GREEN}执行: git push origin $BRANCH${NC}"
+            git push origin $BRANCH
+            ;;
+        5)
+            echo -e "${GREEN}执行: git push --force origin $BRANCH${NC}"
+            git push --force origin $BRANCH
+            # 拉取最新的远程内容
+            echo -e "${YELLOW}强制推送后拉取最新的代码...${NC}"
+            git pull origin $BRANCH
+            ;;
         0)
             echo "Bye!"
             exit 0
