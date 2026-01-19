@@ -12,7 +12,7 @@
 
 <br>
 
-**Accelerating Transcriptomic Meta-Analysis via Retrieval-Augmented Generation (RAG)**
+**Automating Dataset Selection from GEO Using Large Language Models**
 
 [**Live Demo**](https://bioinfoxp.shinyapps.io/GEOMine-Shiny/) | [**Report Bug**](https://github.com/BioinfoXP/GEOMiner/issues) | [**Request Feature**](https://github.com/BioinfoXP/GEOMiner/issues)
 
