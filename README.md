@@ -8,7 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![R](https://img.shields.io/badge/Language-R_4.0%2B-276DC3.svg)](https://www.r-project.org/)
 [![Shiny App](https://img.shields.io/badge/Shiny-Live_Demo-ff69b4.svg?logo=RStudio&logoColor=white)](https://bioinfoxp.shinyapps.io/GEOMine-Shiny/)
-[![DOI](https://img.shields.io/badge/DOI-Pending-lightgrey)](https://github.com/BioinfoXP/GEOMiner)
+[![Status](https://img.shields.io/badge/Manuscript-In_Prep-orange)](https://github.com/BioinfoXP/GEOMiner)
 
 <br>
 
@@ -80,9 +80,7 @@ devtools::install_github("BioinfoXP/GEOMiner")
 
 Set your API key in the R environment for security. You can add this to your `.Renviron` file or run it per session:
 
-R
-
-```
+```R
 # Example: Setting OpenAI API Key
 Sys.setenv(OPENAI_API_KEY = "sk-...")
 
@@ -140,6 +138,12 @@ For users who prefer a graphical interface, **GEOMiner** is available as a deplo
 
 <div align="center">
 
+[![GEOMiner Shiny App](https://wandering.oss-cn-hangzhou.aliyuncs.com/OB_Zotero/20260119113206.png)](https://bioinfoxp.shinyapps.io/GEOMine-Shiny/)
+
+*Click the screenshot above to launch the interactive application.*
+
+</div>
+
 </div>
 
 ------
@@ -166,9 +170,9 @@ The GEOMiner pipeline consists of five automated stages:
 
 ## 📚 Citation
 
-If you use **GEOMiner** in your research, please cite it as follows:
+**GEOMiner** is currently a research project in active development. If you use this software in your work, please cite it as follows (Manuscript in preparation):
 
-> **Xia, P.** (2025). *GEOMiner: AI-Driven Semantic Curation of NCBI GEO Datasets*. R package version 0.1.0. https://www.google.com/url?sa=E&source=gmail&q=https://github.com/BioinfoXP/GEOMiner
+> **Xia, P.** (2025). *GEOMiner: AI-Driven Semantic Curation of NCBI GEO Datasets*. R package version 0.1.0. https://github.com/BioinfoXP/GEOMiner
 
 代码段
 
@@ -177,7 +181,7 @@ If you use **GEOMiner** in your research, please cite it as follows:
   title  = {GEOMiner: AI-Driven Semantic Curation of NCBI GEO Datasets},
   author = {Peng Xia},
   year   = {2025},
-  note   = {R package version 0.1.0},
+  note   = {R package version 0.1.0 (Manuscript in preparation)},
   url    = {[https://github.com/BioinfoXP/GEOMiner](https://github.com/BioinfoXP/GEOMiner)}
 }
 ```
