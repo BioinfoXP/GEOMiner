@@ -7,14 +7,14 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![R](https://img.shields.io/badge/Language-R_4.0%2B-276DC3.svg)](https://www.r-project.org/)
-[![Shiny App](https://img.shields.io/badge/Shiny-Live_Demo-ff69b4.svg?logo=RStudio&logoColor=white)](https://bioinfoxp.shinyapps.io/GEOMine-Shiny/)
+[![Shiny App](https://img.shields.io/badge/Shiny-Live_Demo-ff69b4.svg?logo=RStudio&logoColor=white)](https://bioinfoxp.shinyapps.io/GEOMiner-Shiny/)
 [![Status](https://img.shields.io/badge/Manuscript-In_Prep-orange)](https://github.com/BioinfoXP/GEOMiner)
 
 <br>
 
 **Automating Dataset Selection from GEO Using Large Language Models**
 
-[**Live Demo**](https://bioinfoxp.shinyapps.io/GEOMine-Shiny/) | [**Report Bug**](https://github.com/BioinfoXP/GEOMiner/issues) | [**Request Feature**](https://github.com/BioinfoXP/GEOMiner/issues)
+[**Live Demo**](https://bioinfoxp.shinyapps.io/GEOMiner-Shiny/) | [**Report Bug**](https://github.com/BioinfoXP/GEOMiner/issues) | [**Request Feature**](https://github.com/BioinfoXP/GEOMiner/issues)
 
 </div>
 
@@ -138,7 +138,7 @@ For users who prefer a graphical interface, **GEOMiner** is available as a deplo
 
 <div align="center">
 
-[![GEOMiner Shiny App](https://wandering.oss-cn-hangzhou.aliyuncs.com/OB_Zotero/20260119113206.png)](https://bioinfoxp.shinyapps.io/GEOMine-Shiny/)
+[![GEOMiner Shiny App](https://wandering.oss-cn-hangzhou.aliyuncs.com/OB_Zotero/20260119113206.png)](https://bioinfoxp.shinyapps.io/GEOMiner-Shiny/)
 
 *Click the screenshot above to launch the interactive application.*
 
