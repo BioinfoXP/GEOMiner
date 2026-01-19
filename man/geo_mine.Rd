@@ -2,7 +2,7 @@
 % Please edit documentation in R/main.R
 \name{geo_mine}
 \alias{geo_mine}
-\title{Run GEO Data Miner (CLI Version)}
+\title{Run GEO Data Miner}
 \usage{
 geo_mine(
   keyword,
@@ -36,7 +36,7 @@ geo_mine(
 A data frame containing the mining results.
 }
 \description{
-Run GEO Data Miner (CLI Version)
+Run GEO Data Miner
 }
 \examples{
 \dontrun{

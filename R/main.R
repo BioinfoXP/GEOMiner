@@ -1,4 +1,4 @@
-#' Run GEO Data Miner (CLI Version)
+#' Run GEO Data Miner
 #'
 #' @param keyword String. The main topic (e.g., "HCC immunotherapy").
 #' @param context String. Detailed criteria for scoring (e.g., "Must be clinical tissue").
